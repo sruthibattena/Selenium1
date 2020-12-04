@@ -9,7 +9,7 @@ public class Basics1 {
 		int add=a+b;
 		
 		//Using Concatenation(+) operator to separate string and value.
-		System.out.println("Total is "+ 10);
+		System.out.println("Total is "+ add);
 
 	}
 

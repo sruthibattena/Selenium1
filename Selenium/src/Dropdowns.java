@@ -8,16 +8,16 @@ public class Dropdowns {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.spicejet.com/");
 		 
-		/*Static Dropdown
+		//Static Dropdown
 		
 		Select s=new Select(driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency")));
 		s.selectByValue("AED");
 		s.selectByIndex(3);
-		s.selectByVisibleText("AED"); */
+		s.selectByVisibleText("AED"); 
 		
 		/*driver.findElement(By.cssSelector("#divpaxinfo")).click();
 		System.out.println(driver.findElement(By.cssSelector("#divpaxinfo")).getText());

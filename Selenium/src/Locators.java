@@ -10,7 +10,7 @@ public class Locators {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\shrut\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.google.com");
 		driver.navigate().to("https://www.netflix.com/login");
@@ -21,7 +21,7 @@ public class Locators {
 		driver.findElement(By.id("id_password")).sendKeys("helloworld");
 		driver.close();*/
 
-		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\shrut\\chromedriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.navigate().to("http://www.gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("sruthi.battena2@gmail.com");
@@ -30,7 +30,7 @@ public class Locators {
 		driver.findElement(By.className("VfPpkd-RLmnJb")).click();*/
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.udemy.com");
 		driver.findElement(By.xpath("Log in"));

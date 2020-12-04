@@ -7,7 +7,7 @@ public class Class1 {
 		System.out.println("Calling Methods from another class");
 		CallingMethods1 m=new CallingMethods1();
 		System.out.println(m.ValidateHeader());
-		m.ValidateFooter();
+		 m.ValidateFooter();
 		
 		
 		

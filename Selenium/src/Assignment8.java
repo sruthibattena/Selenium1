@@ -9,11 +9,11 @@ public class Assignment8 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
-		/*driver.findElement(By.id("autocomplete")).sendKeys("uni");
+		driver.findElement(By.id("autocomplete")).sendKeys("uni");
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		String text="return document.getElementById(\"autocomplete\").value;";
 		String jstext=(String) js.executeScript(text);
@@ -24,12 +24,12 @@ public class Assignment8 {
 		}
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.ENTER);
 		System.out.println(jstext);
-		*/
-		driver.findElement(By.id("autocomplete")).sendKeys("ind");
+		
+		/*driver.findElement(By.id("autocomplete")).sendKeys("ind");
 		Thread.sleep(2000);
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
 		driver.findElement(By.id("autocomplete")).sendKeys(Keys.DOWN);
-		System.out.println(driver.findElement(By.id("autocomplete")).getAttribute("value"));
+		System.out.println(driver.findElement(By.id("autocomplete")).getAttribute("value"));*/
 	}
 
 }

@@ -8,7 +8,7 @@ public class Assignmentcheckbox {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\\\\\\\Users\\\\\\\\vamsi\\\\\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("checkBoxOption1")).click();

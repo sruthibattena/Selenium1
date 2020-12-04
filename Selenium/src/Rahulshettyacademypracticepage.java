@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 
 public class Rahulshettyacademypracticepage {
@@ -8,8 +9,8 @@ public class Rahulshettyacademypracticepage {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\geckodriver.exe");
-		WebDriver driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		/*driver.findElement(By.cssSelector("#name")).sendKeys("sruthi");
 		driver.findElement(By.xpath("//input[contains(@type,'ema')]")).sendKeys("sruthi.battena2@gmail.com");

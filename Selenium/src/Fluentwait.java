@@ -14,13 +14,13 @@ public class Fluentwait {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://the-internet.herokuapp.com/dynamic_loading/1");
 		driver.findElement(By.cssSelector("[id='start'] button")).click();
 		
 		Wait<WebDriver> w=new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofSeconds(2)).ignoring(NoSuchElementException.class);
-		WebElement e=w.until(new Function<WebDriver,WebElement>()
+		w.until(new Function<WebDriver,WebElement>()
 				{
 			public WebElement apply(WebDriver driver)
 			{

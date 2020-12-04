@@ -6,7 +6,7 @@ public class TestCase1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\chromedriver.exe");//setting the path to the driver exe file.
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");//setting the path to the driver exe file.
 		WebDriver driver=new ChromeDriver();//creating an object for the chromedriver class and assigning it to a reference variable 'driver' of webdriver interface.
 		driver.get("http:\\www.google.com");//to hit the given url
 		System.out.println(driver.getTitle());//to print the current url title

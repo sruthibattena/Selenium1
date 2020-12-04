@@ -8,7 +8,7 @@ public class Dropdowns2 {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\\\\\\\Users\\\\\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.spicejet.com/");
 		driver.findElement(By.xpath("//*[@id='ctl00_mainContent_ddl_originStation1_CTXT']")).click();

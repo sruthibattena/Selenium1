@@ -12,7 +12,7 @@ public class Ecommerce2 {
 		// TODO Auto-generated method stub
 		//To Add multiple items to Cart
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		String[] veggies= {"Cucumber","Carrot","Tomato"};
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
