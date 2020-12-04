@@ -10,7 +10,7 @@ public class Draganddrop {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://jqueryui.com/droppable/");
 		driver.switchTo().frame(driver.findElement(By.cssSelector("iframe.demo-frame")));

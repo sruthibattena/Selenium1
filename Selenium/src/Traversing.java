@@ -9,7 +9,7 @@ public class Traversing {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
 		//driver.findElement(By.linkText("Images")).click();

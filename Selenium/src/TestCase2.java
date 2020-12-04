@@ -1,12 +1,12 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestCase2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//setting path for the driver
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		
 		/* WebDriver is an Interface in Selenium
 		> FirefoxDriver is a Class in Selenium
@@ -14,7 +14,7 @@ public class TestCase2 {
 		The reason behind using WebDriver instead of FirefoxDriver in the below statement is, we can create a reusable method for launching the desired browser by passing the browser 
 		name to the reusable method.*/
 		
-		WebDriver driver=new FirefoxDriver();
+		WebDriver driver=new ChromeDriver();
 		
 		//Getting Facebook URL for the above opened browser i.e.,firefox
 		driver.get("http:\\www.facebook.com");

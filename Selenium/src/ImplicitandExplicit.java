@@ -14,7 +14,7 @@ public class ImplicitandExplicit {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		String[] veggies= {"Cucumber","Carrot","Tomato"};
 		WebDriver driver = new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

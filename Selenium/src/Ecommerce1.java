@@ -10,7 +10,7 @@ public class Ecommerce1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		// To Add one item to Cart
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
 		Thread.sleep(3000);

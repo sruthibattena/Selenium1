@@ -8,6 +8,6 @@ public class CallingMethods1 {
 	}
 	public void ValidateFooter()
 	{
-		System.out.println("Footer links");
+		System.out.println(" Footer links");
 	}
 }

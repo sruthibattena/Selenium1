@@ -4,8 +4,8 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.chrome.ChromeDriver;
+
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Childwindows {
 
@@ -13,8 +13,8 @@ public class Childwindows {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\vamsi\\geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");
 		driver.findElement(By.linkText("Gmail")).click();
@@ -22,7 +22,7 @@ public class Childwindows {
 		driver.findElement(By.linkText("Sign in")).click();
 		Set<String> ids=driver.getWindowHandles();
 		Iterator<String> id=ids.iterator();
-		String parentid=id.next();
+		//String parentid=id.next();
 		String childid=id.next();
 		driver.switchTo().window(childid);
 		driver.findElement(By.id("identifierId")).sendKeys("sruthi.javaui");

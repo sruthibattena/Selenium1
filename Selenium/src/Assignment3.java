@@ -8,7 +8,7 @@ public class Assignment3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\vamsi\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		WebDriverWait w=new WebDriverWait(driver,5);
 		driver.get("http://www.itgeared.com/demo/1506-ajax-loading.html");

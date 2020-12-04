@@ -13,7 +13,7 @@ public class E2e {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\vamsi\\\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\shrut\\\\chromedriver.exe");
 		//String text = "Sruthi";
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
